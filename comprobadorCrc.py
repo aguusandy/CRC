@@ -1,16 +1,16 @@
 #funciones
 
-def toList(x):
-	l = []
-	for i in range (0,len(x)):
-		l.append(int(x[i]))
-	return (l)
+def toList(palabra):
+	lista = []
+	for i in range (0,len(palabra)):
+		lista.append(int(palabra[i]))
+	return (lista)
 
-def toString(x):
-	str1 =""
-	for i in range (0,len(x)):
-		str1+=str(x[i])
-	return (str1)
+def toString(lista):
+	palabra =""
+	for i in range (0,len(lista)):
+		palabra+=str(lista[i])
+	return (palabra)
 
 def mostrarDivision(codigoLista,polinomioLista):
     print(toString(codigoLista))
